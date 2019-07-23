@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calm breeze login screen</title>
+  
+  
+  
+      <link rel="stylesheet" href="styleSignup.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+	<div class="container">
+		<h1>Student Registration Form</h1>
+		
+		<form class="form">
+			<input type="text" placeholder="RollNumber"
+			id="rollnumber">
+			<input type="text" placeholder="Email"
+			id="Email">
+			<input type="text" placeholder="Name"
+			id="name">
+			<input type="text" placeholder="Room number"
+			id="Room">
+			<input type="password" placeholder="Password"
+			id="password">
+			<button type="submit" id="login-button" onclick="register()">Login</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC7XVbhVta-N7-BUiZRvUuKJs7yyEnky_M",
+    authDomain: "ostello-hostel.firebaseapp.com",
+    databaseURL: "https://ostello-hostel.firebaseio.com",
+    projectId: "ostello-hostel",
+    storageBucket: "ostello-hostel.appspot.com",
+    messagingSenderId: "400474008288"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/index.js"></script> 
+  <script  src="js/javascript.js"></script>
+
+</body>
+
+</html>

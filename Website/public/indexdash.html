@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  
+  
+  
+      <link rel="stylesheet" href="styledash.css">
+
+  
+</head>
+
+<body>
+	<div class="topnav">
+	  <a class="active" href="#home">Home</a>
+	  
+      <a button class ="logout" onclick = "SignOut()" >SignOut</a>
+    </div>
+    
+  <div class="wrapper">
+	<div class="container">
+		<form class="form">
+		<div class="row">
+		  <div class="column" style="background-color:transparent">		  	
+		  	<a href="registeration.html" class="link">
+		  		Student Registration
+		  	</a>		    
+		  </div>
+		  <div class="column" style="background-color:transparent">
+		    <a href="Caretaker.html" class="link">Student info.</a>
+		  </div>
+		</div>
+		<div class="row">
+		 
+		  <div class="column" style="background-color:transparent">
+		    <a href="complaint.html" class="link">
+		    	Complaints
+		    </a>
+		  </div>
+		</div>
+		</form>
+	</div>
+      
+</div>
+    <div>
+      
+      
+      
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC7XVbhVta-N7-BUiZRvUuKJs7yyEnky_M",
+    authDomain: "ostello-hostel.firebaseapp.com",
+    databaseURL: "https://ostello-hostel.firebaseio.com",
+    projectId: "ostello-hostel",
+    storageBucket: "ostello-hostel.appspot.com",
+    messagingSenderId: "400474008288"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src = "dash.js"></script>
+</body>
+
+</html>

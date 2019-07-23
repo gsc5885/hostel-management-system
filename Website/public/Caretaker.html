@@ -1,0 +1,57 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="csscare.css">
+        <title>Details</title>
+    </head>
+    <body>
+            
+    
+        <div class="bottom">
+            <div class = "add">
+                <div class="roll">
+                    
+                    <input type="text" class="add__description" placeholder="Add RollNo">
+              
+                    <button onclick = "go()" class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            
+            <span>
+                <span> <button class = "SignOut" onclick = "Signout()">LogOut</button></span>
+                <span class="header"><h1>Students Details</h1></span>
+                
+            </span>
+            
+            <div class="container clearfix">
+                </div>
+         <table id ="details" rules = "all">
+             <tr>
+                 <th>Roll No</th>
+                 
+                 <th>DatOut</th>
+                 <th>DateIn</th>
+                 <th>Address</th>
+                 
+             </tr>
+             
+             
+                    </table>
+                    
+<script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC7XVbhVta-N7-BUiZRvUuKJs7yyEnky_M",
+    authDomain: "ostello-hostel.firebaseapp.com",
+    databaseURL: "https://ostello-hostel.firebaseio.com",
+    projectId: "ostello-hostel",
+    storageBucket: "ostello-hostel.appspot.com",
+    messagingSenderId: "400474008288"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="caretaker.js" >
+</script>
