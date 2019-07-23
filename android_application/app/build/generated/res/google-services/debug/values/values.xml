@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">400474008288-9r2o2ludj4bc1pu399jfdtuf8scprs82.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ostello-hostel.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">400474008288</string>
+    <string name="google_api_key" translatable="false">AIzaSyCz9aZWaRYPdV_Q_-TyXekX8DORGY1TUB8</string>
+    <string name="google_app_id" translatable="false">1:400474008288:android:9cfc689fffebf516</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCz9aZWaRYPdV_Q_-TyXekX8DORGY1TUB8</string>
+    <string name="google_storage_bucket" translatable="false">ostello-hostel.appspot.com</string>
+    <string name="project_id" translatable="false">ostello-hostel</string>
+</resources>

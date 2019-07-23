@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "400474008288",
+    "firebase_url": "https://ostello-hostel.firebaseio.com",
+    "project_id": "ostello-hostel",
+    "storage_bucket": "ostello-hostel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400474008288:android:7f664716e831d967",
+        "android_client_info": {
+          "package_name": "com.bitfield.com.ostello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400474008288-p26qmusp9mc9l15vg3rjk1ig85ju54em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitfield.com.ostello",
+            "certificate_hash": "03ecdf5933f8d8db9bbffcd9cfa0b7f76dfd22ff"
+          }
+        },
+        {
+          "client_id": "400474008288-9r2o2ludj4bc1pu399jfdtuf8scprs82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz9aZWaRYPdV_Q_-TyXekX8DORGY1TUB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400474008288-9r2o2ludj4bc1pu399jfdtuf8scprs82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400474008288:android:9cfc689fffebf516",
+        "android_client_info": {
+          "package_name": "com.bitfield.ostello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400474008288-98vn5as56nt7oot3i4gqqcl1p1d8r4qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bitfield.ostello",
+            "certificate_hash": "03ecdf5933f8d8db9bbffcd9cfa0b7f76dfd22ff"
+          }
+        },
+        {
+          "client_id": "400474008288-9r2o2ludj4bc1pu399jfdtuf8scprs82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz9aZWaRYPdV_Q_-TyXekX8DORGY1TUB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400474008288-9r2o2ludj4bc1pu399jfdtuf8scprs82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
